@@ -1,0 +1,6 @@
+ docker login --username khwahishindoria
+  718  docker pull nginx
+  719  docker images
+  721  docker tag nginx:latest khwahishindoria/testcode:1
+  722  docker images
+  723  docker push khwahishindoria/testcode:1
